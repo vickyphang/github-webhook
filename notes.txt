@@ -1,0 +1,9 @@
+archimedes/
+|-- bin/
+|-- src/
+    |-- archimedes/
+|-- pkg/
+
+bin: For executable binaries.
+src: For your source code.
+pkg: For package objects.
