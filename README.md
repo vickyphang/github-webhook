@@ -2,6 +2,8 @@
 [![GitHub license](https://img.shields.io/github/license/vickyphang/archimedes)](https://github.com/vickyphang/github-webhook/blob/main/LICENSE)
 ![GitHub stars](https://img.shields.io/github/stars/vickyphang/archimedes)
 
+<p align="center"> <img src="images/logo.png"> </p>
+
 The purpose of this project is to setup `Github` to `push notifications` to a `monitoring server` whenever a developer pushes changes to a repository using `Github's webhooks`. Webhooks allow you to send `HTTP POST` requests to a specified URL in response to certain events, such as code pushes.
 
 ## Deployment: quick start
@@ -53,3 +55,10 @@ docker run -d -e QUEUE_NAME='github_webhook' \
 - Click the `Add webhook` button to save the webhook configuration.
 
 <p align="center"> <img src="images/edit-webhook.png"> </p>
+
+<p align="center"> <img src="images/add-success.png"> </p>
+
+### 5. Verify
+Create any changes in the repository and then run `docker logs --follow worker` to check the logs. It should look like this:
+
+<p align="center"> <img src="images/push-notification.png"> </p>
