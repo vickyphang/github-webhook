@@ -1,4 +1,4 @@
-module github.com/vickyphang/archimedes
+module github-webhook
 
 go 1.21.0
 
