@@ -1,6 +1,6 @@
 # Github Webhook 📬
-[![GitHub license](https://img.shields.io/github/license/vickyphang/github-webhook)](https://github.com/vickyphang/github-webhook/blob/master/LICENSE)
-![GitHub stars](https://img.shields.io/github/stars/vickyphang/github-webhook)
+[![GitHub license](https://img.shields.io/github/license/vickyphang/archimedes)](https://github.com/vickyphang/github-webhook/blob/main/LICENSE)
+![GitHub stars](https://img.shields.io/github/stars/vickyphang/archimedes)
 
 The purpose of this project is to setup `Github` to `push notifications` to a `monitoring server` whenever a developer pushes changes to a repository using `Github's webhooks`. Webhooks allow you to send `HTTP POST` requests to a specified URL in response to certain events, such as code pushes.
 
